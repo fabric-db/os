@@ -4,6 +4,8 @@ Fabric OS is the first-of-its-kind Agentic OS for Fabric DB.
 
 ```text
 Fabric OS = agentic operating layer.
+Operator SDK = operator build framework.
+Platform Agents = product component operators.
 Desktop Agent = agentic desktop surface.
 Ubuntu Desktop = trusted human workstation layer.
 MAAS = Metal as a Service.
@@ -15,9 +17,30 @@ RealBox = digital twin of the box.
 OpenBox Protocol = protocol surface for box identity, instruction, record, replay, and federation.
 ```
 
+## Platform Agents
+
+```text
+Every platform component has an Operator Agent.
+```
+
+```text
+Identity Operator Agent
+Box Operator Agent
+Agent Operator Agent
+OpenBox Operator Agent
+Fabric OS Operator Agent
+Data Operator Agent
+Governance Operator Agent
+Billing Operator Agent
+Marketplace Operator Agent
+Observability Operator Agent
+```
+
 ## Why it is great
 
 ```text
+Operator SDK gives the build model for operators.
+Platform Agents operate product components.
 Ubuntu Desktop gives the human a secure workstation.
 Desktop Agent gives the workstation an agentic control surface.
 MAAS makes metal programmable.
@@ -35,6 +58,7 @@ workstation_id
 metal_id
 box_id
 agent_id
+operator_agent_id
 desktop_agent_id
 agentbox_id
 realbox_id
@@ -52,6 +76,8 @@ fabric-os
 ## Relationship
 
 ```text
+Operator SDK = operator build framework
+Platform Agents = product component operators
 Ubuntu Desktop = workstation layer
 Desktop Agent = human control surface
 MAAS = Metal as a Service
