@@ -5,6 +5,7 @@ Fabric OS is the first-of-its-kind Agentic OS for Fabric DB.
 ```text
 Fabric OS = agentic operating layer.
 Operator SDK = operator build framework.
+OpenTelemetry = observability standard.
 Platform Agents = product component operators.
 Desktop Agent = agentic desktop surface.
 Ubuntu Desktop = trusted human workstation layer.
@@ -21,6 +22,7 @@ OpenBox Protocol = protocol surface for box identity, instruction, record, repla
 
 ```text
 Every platform component has an Operator Agent.
+Every Operator Agent emits telemetry.
 ```
 
 ```text
@@ -40,6 +42,7 @@ Observability Operator Agent
 
 ```text
 Operator SDK gives the build model for operators.
+OpenTelemetry gives the signal model for traces, metrics, and logs.
 Platform Agents operate product components.
 Ubuntu Desktop gives the human a secure workstation.
 Desktop Agent gives the workstation an agentic control surface.
@@ -62,6 +65,9 @@ operator_agent_id
 desktop_agent_id
 agentbox_id
 realbox_id
+trace_id
+metric_id
+log_id
 instruction_id
 record_id
 replay_id
@@ -77,6 +83,7 @@ fabric-os
 
 ```text
 Operator SDK = operator build framework
+OpenTelemetry = observability standard
 Platform Agents = product component operators
 Ubuntu Desktop = workstation layer
 Desktop Agent = human control surface
