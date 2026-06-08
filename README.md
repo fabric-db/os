@@ -4,6 +4,8 @@ Fabric OS is the first-of-its-kind Agentic OS for Fabric DB.
 
 ```text
 Fabric OS = agentic operating layer.
+Desktop Agent = agentic desktop surface.
+Ubuntu Desktop = trusted human workstation layer.
 MAAS = Metal as a Service.
 Juju = Agent as a Service control model.
 Agent = active operator.
@@ -16,6 +18,8 @@ OpenBox Protocol = protocol surface for box identity, instruction, record, repla
 ## Why it is great
 
 ```text
+Ubuntu Desktop gives the human a secure workstation.
+Desktop Agent gives the workstation an agentic control surface.
 MAAS makes metal programmable.
 Juju makes agents manageable as services.
 Agentic OS makes the box active.
@@ -27,9 +31,11 @@ OpenBox makes the box programmable.
 ## Core units
 
 ```text
+workstation_id
 metal_id
 box_id
 agent_id
+desktop_agent_id
 agentbox_id
 realbox_id
 instruction_id
@@ -46,6 +52,8 @@ fabric-os
 ## Relationship
 
 ```text
+Ubuntu Desktop = workstation layer
+Desktop Agent = human control surface
 MAAS = Metal as a Service
 Juju = Agent as a Service
 fabric-db/openBox = OpenBox Protocol
